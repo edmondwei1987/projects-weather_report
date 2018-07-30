@@ -1,0 +1,24 @@
+<h1 class="display-4 text-center my-3">Weather Forecast</h1>
+<div class="container">
+  <div class="text-center mx-auto">
+    <a href="#" [routerLink]="['seattle']" class="btn btn-info my-1">Seattle WA</a>
+    <a href="#" [routerLink]="['burbank']" class="btn btn-info my-1">Burbank CA</a>
+    <a href="#" [routerLink]="['chicago']" class="btn btn-info my-1">Chicago IL</a>
+    <a href="#" [routerLink]="['washington']" class="btn btn-info my-1">Washington D.C.</a>
+    <a href="#" [routerLink]="['dallas']" class="btn btn-info my-1">Dallas TX</a>
+    <a href="#" [routerLink]="['san jose']" class="btn btn-info my-1">San Jose CA</a>
+  </div>
+</div>
+<div class="container">
+  <router-outlet></router-outlet>
+</div>
+
+<!-- FOOTER -->
+<footer id="main-footer" class="py-2">
+  <div class="container text-center">
+    <p>
+      Copyright &copy;
+      <span id="year"></span>
+    </p>
+  </div>
+</footer>

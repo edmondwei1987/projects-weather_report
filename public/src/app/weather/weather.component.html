@@ -1,0 +1,12 @@
+<div class="card text-white">
+  <img src="{{image}}" alt="" class="card-img">
+  <div class="card-img-overlay text-center">
+    <h1 class="card-title pt-4 text-capitalize">{{city}}</h1>
+    <p class="card-text">Max Temperature:{{weather.main.temp_max}}F</p>
+    <p class="card-text">Min Temperature:{{weather.main.temp_min}}F</p>
+    <p class="card-text">Temperature:{{weather.main.temp}}F</p>
+    <p class="card-text">Humidity:{{weather.main.humidity}}</p>
+    <p class="card-text">Wind Speed:{{weather.wind.speed}}</p>
+    <p class="card-text">Weather:{{weather.weather[0].main}}</p>
+  </div>
+</div>

@@ -1,0 +1,13 @@
+/* You can add global styles to this file, and also import other style files */
+.card-img-overlay{
+  background:rgba(0, 0, 0, 0.3);
+}
+@media(max-width:770px){
+  .card-text,.card-title{
+    margin-bottom: 1px;
+  }
+  .card-title{
+     padding-top: 0px!important;
+     font-size:22px;
+  }
+}
